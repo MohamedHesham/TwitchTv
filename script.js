@@ -33,7 +33,7 @@ $(document).ready(function() {
     getInfo(val);
   });
 
-  }, 3000);
+  }, 2500);
 
   $("#search").click(function(e) {
     e.preventDefault();
