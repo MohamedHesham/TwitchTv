@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  color: #6441A4;
+  background-color:  #F7F6F7;
+  /*background-image: url('drib_hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% -50%;*/
+}
+#header {
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.element {
+  border-bottom: 1px solid #6441A4;
+  width: 50%;
+  margin: 3% auto;
+}
+.element img {
+  border: 1px solid #6441A4;
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+  right: 50px;
+}
+.element h4 {
+  display: inline-block;
+}
+
+.container {
+  margin-top: 7%;
+}
+input {
+  border: 2px solid #6441A4;
+  border-radius: 5px;
+  color: #6441A4;
+  padding: 1%;
+  font-size: 15px;
+  font-family: 'Orbitron', sans-serif;
+
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #6441A4;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #6441A4;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #6441A4;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #6441A4;
+}
+a {
+  text-decoration: none;
+  color: #6441A4;
+}
+.twit {
+  font-size: 30px;
+}
+#loading {
+  width: 50%;
+  height: 50%;
+}
+.green {
+  color: green;
+}
+.grey {
+  color: grey;
+}
+p {
+  width: 50%;
+  margin-left: 30%;
+}
+.red {
+  color:red;
+}
+footer {
+  position: relative;
+  width: 50%;
+  margin: 10px auto;
+}
